@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.LP-laptop {
+    height: 90vh;
+    width: 100%;
+    background: url(/orangedisheswhiten.jpg) no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+}
+
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* padding-left: 40px; */
+}
+
+.title {
+    width: 60%;
+    height: auto;
+    padding: 30px 0 0 60px;
+}
+
+.comment {
+    text-align: center;
+    font-size: 1.3em;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.btn {
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px 30px;
+    border: 2px solid white !important;
+    border-radius: 20px;
+    width: 180px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+.btn:hover {
+    color: #7A6D66 !important;
+    background: #F8E8CF;
+    border-color: #FAEAD2 !important;
+    transition: all 0.4s ease 0s;
+    }
+
+    .button_cont {
+        margin: auto;
+    }
