@@ -10,7 +10,7 @@
 .LP-laptop {
     height: 90vh;
     width: 100%;
-    background: url(/dist/img/orangedisheswhiten.jpg) no-repeat;
+    background: url(./img/orangedisheswhiten.jpg) no-repeat;
     background-size: auto 120%;
     background-position: center;
 }
