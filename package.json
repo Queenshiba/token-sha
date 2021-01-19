@@ -1,7 +1,6 @@
 {
   "name": "token-sha",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -18,6 +17,8 @@
   },
   "homepage": "https://Queenshiba.github.io/token-sha",
   "dependencies": {
-    "gh-pages": "^2.1.1"
-  }
+    "gh-pages": ">=4.17.19"
+  },
+  "devDependencies": {},
+  "description": ""
 }
