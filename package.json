@@ -1,9 +1,14 @@
 {
   "name": "token-sha",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,10 +20,5 @@
   "bugs": {
     "url": "https://github.com/Queenshiba/token-sha/issues"
   },
-  "homepage": "https://Queenshiba.github.io/token-sha",
-  "dependencies": {
-    "gh-pages": ">=4.17.19"
-  },
-  "devDependencies": {},
-  "description": ""
+  "homepage": "https://github.com/Queenshiba/token-sha#readme"
 }
