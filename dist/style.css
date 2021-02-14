@@ -10,7 +10,7 @@
 .LP-laptop {
     height: 90vh;
     width: 100%;
-    background: url(./img/orangedisheswhiten.jpg) no-repeat;
+    background: url(./img/bowlsonboard.jpg) no-repeat;
     background-size: auto 120%;
     background-position: center;
 }
@@ -157,16 +157,17 @@ a:hover {
     /* background: lightblue; */
     /* margin-top: 30%; */
     text-align: center;
-    margin-bottom: 30px;
+    margin: 10%;
 }
 
 .moredetail {
-    margin-top: 50%;
-    padding-bottom: 10px;
+    margin-top: 20%;
+    /* padding-bottom: 10px; */
 }
 
 .detail {
-    margin-top: 10%;
+justify-content: center ;
+margin: 0 5%;
 }
 
 .subtitle {
@@ -209,9 +210,9 @@ footer div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+
 }
 
 footer .nav {
-    padding: 40px 0;
+    padding: 10px 0;
 }
